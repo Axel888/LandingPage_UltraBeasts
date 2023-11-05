@@ -1,0 +1,134 @@
+@import url("normalize.min.css");
+
+body {
+  width: 1219px;
+  margin: auto;
+  padding: 0px 55px 0px 55px;
+  background-color: white;
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Шапка: макет */
+.header {
+  background-color: #ffa07a;
+  position: sticky;
+  top: 0px;
+  display: flex;
+  height: 84px;
+}
+
+/* Шапка: навигация*/
+nav {
+  margin: 23px 0 0 37%;
+}
+
+nav > a {
+  font-size: 24px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav > a:hover {
+  color: gray;
+}
+
+nav > span {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+/* Шапка: логотип */
+.header_logo {
+  margin: 26px 0 0 45px;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.header_logo:hover {
+  color: gray;
+}
+
+/* Блок-слоган под шапкой */
+.tagline {
+  background-image: url("images/jumbotron.png");
+  background-size: cover;
+  height: 403px;
+  font-size: 72px;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+
+/* Заголовки */
+.topic {
+  color: #ffa07a;
+  text-align: center;
+  font-size: 64px;
+  font-weight: bold;
+}
+
+/* Основной текст страницы*/
+.page_main_text {
+  padding: 0 55px 0 55px;
+}
+
+/* Блок-картинка под заголовком "Our goals" */
+.hero_block {
+  background-image: url("images/hero_block.png");
+  background-size: cover;
+  height: 353px;
+  font-size: 48px;
+  color: #ffffff;
+  text-align: center;
+  font-style: italic;
+  padding: 90px 100px 0px 100px;
+}
+
+.logo_2 {
+  float: left;
+  margin: 0 55px 0 55px;
+}
+
+/* Фото участников команды и подписи к фото */
+.figure {
+  display: inline-block;
+  text-align: center;
+  padding: 0 0 0 70px;
+  margin-left: 80px;
+}
+
+.figcaption_1 {
+  font-size: 24px;
+  color: #ffa07a;
+  font-weight: bold;
+}
+
+.figcaption_2 {
+  font-size: 18px;
+  color: #08515e;
+  font-style: italic;
+}
+
+.title_and_team_photo {
+  background-color: #eeeeee;
+}
+
+/* Подвал */
+footer {
+  background-color: #355163;
+  height: 150px;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
