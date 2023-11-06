@@ -75,6 +75,13 @@ nav > span {
   font-weight: bold;
 }
 
+.topic::before {
+  display: block;
+	content: "";
+	height: 120px;
+	margin: -120px 0 0;
+}
+
 /* Основной текст страницы*/
 .page_main_text {
   padding: 0 55px 0 55px;
@@ -131,4 +138,5 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 10px;
 }
